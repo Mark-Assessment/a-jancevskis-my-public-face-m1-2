@@ -1,112 +1,130 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Andris Jancevskis space
+## Introduction
+This is a part of me for the public.
 
-Welcome USER_NAME,
+## Site's description
+This part will be filled AFTER Stage 1 is completed.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **April 26, 2024**
+## ToDo
+> Expand and change ToDo as development progresses. 
+> The current Stage is: Development of Stage 1
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- [x] Create README.md structure
 
-`python3 -m http.server`
+### Fill the details
+- [x] Strategy plane
+- [x] Scope plane
+- [x] Structure plane
+- [ ] Skeleton Plane
+- [ ] Surface Plane
 
-A blue button should appear to click: _Make Public_,
+### Coding
+- [ ] Landing page desktop version
+- [ ] Landing page desktop other devices
+- [ ] Header and Footer for Desktops
+- [ ] Header and Footer for other devices
+- [ ] Contents for Desktops
+- [ ] Contents for other devices
 
-Another blue button should appear to click: _Open Browser_.
+### Other
+- [ ] Acknowlegements
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+## Development
+This part is dedicated to the page's development.
+### Strategy plane
+#### User requirements
+The purpose of the space is to market myself and get hired. The following requirements reflect this purpose.
+•	Used technologies should reflect my skills in UI design and development.
+•	It contains the list of skills and experience I have acquired. The accent should be on IT skills with complementary business skills.
+•	The first page (landing page) should be eye-catching and encourage a visitor to explore further.
+•	The site contains links to my Facebook, GitHub and LinkedIn profiles.
+•	There is an opportunity to download the whole CV.
+•	It must have a Contact page.
+•	Pass Code Institute assessment.
+Optional:
+•	SEO features.
+#### Code Institute requirements
+Main Technologies
+Required: HTML, CSS
+Optional: Bootstrap and/or other CSS libraries/frameworks.
+Mandatory Requirements
+A project violating any of these requirements will FAIL.
+1.	Static front-end project: Write custom HTML5 and CSS3 code to create a website of at least 3 pages or (if using a single scrolling page) at least 3 separate page areas.
+2.	Information Architecture: Incorporate a main navigation menu and structured layout (you might want to use Bootstrap to accomplish this).
+3.	Documentation: Write a README.md file for your project that explains what the project does and the value that it provides to its users.
+4.	Version Control: Use Git & GitHub for version control.
+5.	Attribution: Maintain clear separation between code written by you and code from external sources (e.g. libraries or tutorials). Attribute any code from external sources to its source via comments above the code and (for larger dependencies) in the README.
+6.	Deployment: Deploy the final version of your code to a hosting platform such as GitHub Pages.
+#### Audience
+The intended audience of the site is potential recruiters and contractors.
 
-A blue button should appear to click: _Make Public_,
+### Scope plane
+In this initial stage, the design will be created. It will not be publishable for a broader audience in a permanent place.
+#### Functional scope
+1.	Use HTML5, CSS5 and Bootstrap v5.0.2 (optional).
+2.	Static pages only.
+3.	A uniform for all page’s mobile version design.
+4.	Screen reader’s friendly design.
+5.	Use GitHub to save work during development.
+#### Content scope
+* Landing page with a Wow! design for desktop computers and tablets.
+* The contact form with a Thank you page after the message is sent.
+* Skills page.
+* Work History
+* CV download functionality.
+#### Out of scope
+Here is the listed functionality that is to be implemented to make pages publishable.
+* Actual sending email from the contact form. This requires server-side programming.
+* ReCAPTCHA in the contact form.
+* The content and CV fine-tuning.
+* SEO features.
+* With server-side interactivity enabled, reorganise the site by moving the header and footer out of each page into separate files and include the header and footer from these files. That will make enabling changes in all site pages easier by changing only one file.
+### Structure plane
+The structure plane is concerned with design elements – what will be on pages. Wireframes allow seeing what will be on pages. There is no detailed design or colours (in most cases); schematic elements only are placed on a page.
 
-Another blue button should appear to click: _Open Browser_.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Landing Page for Desktop computers**
 
-To log into the Heroku toolbelt CLI:
+<img src="assets/readme/wireframes/landing-page-desktop.png" alt="Landing Page for Desktop computers" width="50%" height="50%">
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**Landing Page for Mobile devices**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+<img src="assets/readme/wireframes/landing-page-mobile.png" alt="Landing Page for Mobile devices" width="50%" height="50%">
 
-------
+**Skills page**
 
-## Release History
+<img src="assets/readme/wireframes/skills-page.png" alt="Skills page" width="50%" height="50%">
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Experience page**
 
-**April 26 2024:** Update node version to 16
+<img src="assets/readme/wireframes/experience.png" alt="Experience page" width="50%" height="50%">
 
-**September 20 2023:** Update Python version to 3.9.17.
+**Contact form**
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<img src="assets/readme/wireframes/contact-form.png" alt="Contact form" width="50%" height="50%">
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+**Contact form feedback**
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<img src="assets/readme/wireframes/contact-form-feedback.png" alt="Contact form frrdback" width="50%" height="50%">
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+**Pages for Mobile devices**
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<img src="assets/readme/wireframes/mobile-pages.png" alt="Pages for Mobile devices" width="50%" height="50%">
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Skeleton Plane
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Pages are responsive: desktop and mobile (max = 320x480px).
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Surface Plane
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Acknowledgements
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+To be added at the end of development
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## References
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- I. Miličić, *Who Knew Adobe CC Could Wireframe?*, online, https://www.toptal.com/designers/adobe/adobe-cc-wireframe. Last accessed 2024/03/30.
+- *Markdown Cheat Sheet*, https://www.markdownguide.org/cheat-sheet/ Last accessed 2024/03/30.
+- *Project Requirements*, https://learn.codeinstitute.net/courses/course-v1:code_institute+DIWAD_MS1+2022_Q1/courseware/5cc55f6df9fe41cc8dcb4d665a251ded/8341150079674a76b87da0143c45f6f9/ Last accessed 2024/03/30. 
