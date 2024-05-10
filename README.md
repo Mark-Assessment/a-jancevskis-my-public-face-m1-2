@@ -17,8 +17,8 @@ This part will be filled AFTER Stage 1 is completed.
 - [x] Strategy plane
 - [x] Scope plane
 - [x] Structure plane
-- [ ] Skeleton Plane
-- [ ] Surface Plane
+- [X] Skeleton Plane
+- [X] Surface Plane
 
 ### Coding
 - [ ] Landing page desktop version
@@ -28,8 +28,12 @@ This part will be filled AFTER Stage 1 is completed.
 - [ ] Contents for Desktops
 - [ ] Contents for other devices
 
+### Testing
+- [ ] Testing
+
 ### Other
 - [ ] Acknowlegements
+- [ ] Site's Desciption
 
 ## Development
 This part is dedicated to the page's development.
@@ -115,9 +119,31 @@ The structure plane is concerned with design elements – what will be on pages.
 
 ### Skeleton Plane
 
-Pages are responsive: desktop and mobile (max = 320x480px).
+The web page will load seamlessly and pass the Chrome Lighthouse test.
+
+Transitions between screens are not managed, as the next page will load seamlessly having only one image.
+
+The content of pages will be consistent and accurate by meaning.
+
+Users with assisted technologies such as screen readers can access all content.
 
 ### Surface Plane
+Pages are responsive between a desktop and a mobile (max = 320x480px) size.
+
+All pages (except the desktop landing page) are uniform, with the same header and footer, and use the same font and colour patterns.
+
+Due to the small project size, there is no design mock-up, and all elements will be built during development using the try-and-fix method.
+
+
+# Testing
+## Unit tests
+### Links and page loading
+### CSS
+### HTML
+### Loading speed
+
+## Acceptance test
+
 
 ## Acknowledgements
 
@@ -125,6 +151,10 @@ To be added at the end of development
 
 ## References
 
-- I. Miličić, *Who Knew Adobe CC Could Wireframe?*, online, https://www.toptal.com/designers/adobe/adobe-cc-wireframe. Last accessed 2024/03/30.
 - *Markdown Cheat Sheet*, https://www.markdownguide.org/cheat-sheet/ Last accessed 2024/03/30.
 - *Project Requirements*, https://learn.codeinstitute.net/courses/course-v1:code_institute+DIWAD_MS1+2022_Q1/courseware/5cc55f6df9fe41cc8dcb4d665a251ded/8341150079674a76b87da0143c45f6f9/ Last accessed 2024/03/30. 
+
+## Bibliography
+Sources in this section were used for multiple small requests.
+- *ChatGPT*, https://openai.com/chatgpt/. Last accessed 10/05/2024
+- *Bootstrap*, https://getbootstrap.com/docs/5.3/getting-started/introduction/ . Last accessed 10/05/2024
