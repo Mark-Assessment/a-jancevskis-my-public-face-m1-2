@@ -1,0 +1,125 @@
+/*
+* Andris Jancevskis Site's custom CSS
+* @author Andris Jancevskis
+*
+*/
+
+/* --- Setting the scene --- */
+
+*{
+    font-family: Arial;
+    letter-spacing: 0.1em;
+}
+
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* --- Desktop Landing Page --- */
+
+#lp-desktop{
+    padding-top: 0.8em;
+    height: 80vh;
+    padding-bottom: 20vh;
+}
+
+#lp-desktop h1{
+    font-family: "Exo", sans-serif;
+    font-weight: 900;
+    font-size: 2.4em;
+    letter-spacing: 0em;
+    margin: 0;
+    color: #fafafa;
+}
+
+
+#lp-desktop h3{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 1.8em;
+    letter-spacing: 0em;
+    margin: 0;
+    color: #fafafa;
+}
+
+#lp-desktop h4{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    letter-spacing: 0em;
+    margin: 0;
+    color: #fafafa;
+}
+
+
+#lp-desktop p{
+    color: #fafafa;
+}
+
+/*
+#lp-desktop footer{
+    /* 
+    
+    sticky footer example from
+    https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/
+    
+    */
+    /* 
+    position: fixed;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #457456;
+    color: none;
+ }
+
+*/
+
+#lp-menu{
+    padding-top: 0.6em;
+    color: #fafafa;
+}
+
+#lp-menu a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.hr-footer{
+    border-style: solid;
+    size: 1px;
+    color:#fafafa;
+    width: 30%;
+    margin: auto;
+}
+
+
+/* --- general use styles --- */
+
+.block{
+    display: block;
+}
+
+.font-size-0-8{
+    font-size: 0.8em;
+}
+
+
+@media screen and (max-width: 360px) and (max-heigh: 460) {
+    body{
+        background-image: none;
+        background-color: rgb(97, 11, 11);
+    }
+    #lp-desktop{
+        display: none;
+    }
+
+}
