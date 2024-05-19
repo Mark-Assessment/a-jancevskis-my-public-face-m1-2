@@ -20,6 +20,8 @@ This part will be filled AFTER Stage 1 is completed.
 - [X] Skeleton Plane
 - [X] Surface Plane
 
+- [ ] Adjust Readme to user Stories (detailed Stage 1 description using user stories)
+
 ### Coding
 - [ ] Landing page desktop version
 - [ ] Landing page desktop other devices
@@ -28,8 +30,12 @@ This part will be filled AFTER Stage 1 is completed.
 - [ ] Contents for Desktops
 - [ ] Contents for other devices
 
+- [ ] replace copyright with social icons in footer
+
 ### Testing
 - [ ] Testing
+- [ ] Validator test screenshots for each page
+- [ ] Evidence of user stories being fulfilled
 
 ### Other
 - [ ] Acknowlegements
@@ -143,7 +149,7 @@ Due to the small project size, there is no design mock-up, and all elements will
 ### Loading speed
 
 ## Acceptance test
-
+Fulfillment of user stories
 
 ## Acknowledgements
 

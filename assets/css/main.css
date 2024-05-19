@@ -11,9 +11,6 @@
     letter-spacing: 0.1em;
 }
 
-html{
-    font-size: 16px;
-}
 body{
     margin: 0;
     padding: 0;
@@ -21,13 +18,10 @@ body{
     width: 100%;
 }
 
-
 /* --- Desktop Landing Page --- */
 
 #lp-desktop{
     padding-top: 0.8em;
-    height: 80vh;
-    padding-bottom: 20vh;
 }
 
 #lp-desktop h1{
@@ -63,29 +57,14 @@ body{
     color: #fafafa;
 }
 
-/*
-#lp-desktop footer{
-    /* 
-    
-    sticky footer example from
-    https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/
-    
-    */
-    /* 
-    position: fixed;
-    padding: 0;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background: #457456;
-    color: none;
- }
-
-*/
+#lp-desktop section{
+    margin-top: 24px;
+}
 
 #lp-menu{
     padding-top: 0.6em;
     color: #fafafa;
+    text-align: right;
 }
 
 #lp-menu a{
@@ -101,7 +80,6 @@ body{
     margin: auto;
 }
 
-
 /* --- general use styles --- */
 
 .block{
@@ -112,14 +90,104 @@ body{
     font-size: 0.8em;
 }
 
+.lp-skills-ring{
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    background-color: #fafafa;
+    display: inline-block; 
+    text-align: center;
+}
 
-@media screen and (max-width: 360px) and (max-heigh: 460) {
+.skills-inner-text{
+    color: rgb(61, 54, 54) !important;
+    font-weight: 800;
+    font-size: 1em;
+    padding-top: 0.8em;
+    letter-spacing: 0;
+}
+
+.lp-tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+.lp-tooltip .lp-tooltip-text{
+    visibility: hidden;
+    width: 300px;
+    background-color: blue;
+    color: #fafafa;
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 0;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: 5px;
+    transition: 1s;
+    font-size: 0.8em;
+}
+
+.lp-tooltip:hover .lp-tooltip-text {
+    z-index: 4;
+    visibility: visible;
+}
+
+.lp-skills-ring:hover {
+    text-decoration: underline;
+    transform: scale(1.25, 1.25);
+    z-index: 2;
+}
+
+.lp-skills-midrow{
+    height: 125px;
+}
+
+.skills-midrow-text{
+    padding: 50px 0;
+    margin: 0;
+}
+
+.expand-fully{
+    width: 100%;
+    height: 100%;
+}
+
+.no-padding-margin{
+    padding: 0;
+    margin: 0;
+}
+
+.footer {      /* --- modified code from https://www.w3schools.com/howto/howto_css_fixed_footer.asp --- */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+@media screen and (min-width: 993px) {
+    #lp-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
     body{
         background-image: none;
         background-color: rgb(97, 11, 11);
     }
-    #lp-desktop{
-        display: none;
-    }
 
+    #lp-mobile{
+        display: all;
+    }
 }
