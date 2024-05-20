@@ -7,15 +7,14 @@
     <title>Andris Jancevskis</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="assets/css/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    
     <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/landing-page.css" rel="stylesheet">
 
 </head>
 <body>
 <!--  This is the part of desktop landing page  -->
-<div id="lp-desktop" class="w3-container w3-hide-medium w3-hide-small">
+<div id="lp-desktop" class="w3-container no-padding">
     <header>
         <div class="w3-row">
             <div class="w3-col m6 w3-center">
@@ -34,32 +33,32 @@
         </div>
     </header>
 
-    <section class="w3-container w3-border">
+    <section class="w3-container  no-padding">
         <!-- top row -->
-        <div class="w3-row w3-border">
+        <div class="w3-row">
             <div class="w3-col m3"><p></p></div> <!-- an empty one-->
-            <div class="w3-col m6 w3-border">
-                <div class="w3-row w3-border">
-                    <div class="w3-col l5 w3-border"><p class="w3-right">JavaScript</p></div>                        
-                    <div class="w3-col l2 w3-border"><p></p></div>                        
-                    <div class="w3-col l5 w3-border"><p class="w3-left">HTML</p></div>                        
+            <div class="w3-col m6">
+                <div class="w3-row">
+                    <div class="w3-col l5"><p class="w3-right">JavaScript</p></div>                        
+                    <div class="w3-col l2"><p></p></div>                        
+                    <div class="w3-col l5"><p class="w3-left">HTML</p></div>                        
                 </div>
-                <div class="w3-row w3-border">
-                    <div class="w3-col l4 w3-border lp-skills-midrow text-right">
-                        <p class="skills-midrow-text w3-border">Django</p>
+                <div class="w3-row">
+                    <div class="w3-col l4 lp-skills-midrow text-right">
+                        <p class="skills-midrow-text">Django</p>
                     </div>                        
 
-                    <div class="w3-col l4  w3-border w3-center">
+                    <div class="w3-col l4  w3-center">
                         <div class="lp-skills-ring lp-tooltip">
-                            <p class="skills-inner-text w3-border"><a href="skills.html#software-skills">Software development</a>
-                            <span class="lp-tooltip-text">Do you want to know more?<br/>Click the text!</span></p>
+                            <p class="skills-inner-text"><a href="skills.html#software-skills">Software development</a>
+                            <span class="lp-tooltip-text">Do you want to know more?<br/>Click on the text!</span></p>
                         </div>
                     </div>
-                    <div class="w3-col l4 w3-border lp-skills-midrow text-left">
-                        <p class="skills-midrow-text w3-border">RDBMS, SQL</p>
+                    <div class="w3-col l4 lp-skills-midrow text-left">
+                        <p class="skills-midrow-text">RDBMS, SQL</p>
                     </div>
                 </div>
-                <div class="w3-row w3-border">
+                <div class="w3-row">
                     <div class="w3-col l5"><p class="w3-right">Python</p></div>                        
                     <div class="w3-col l2"><p></p></div>                        
                     <div class="w3-col l5"><p class="w3-left">CSS</p></div>                        
@@ -67,29 +66,72 @@
             </div>
             <div class="w3-col m3"><p></p>></div> <!-- an empty one-->
         </div>
+        <!-- middle row -->
+        <div class="w3-row no-padding">
+            <div class="w3-col l12"  style="max-height: 100px;">
+                <div id="lp-aj-pic-div" class="w3-center">
+                </div>
+            </div>
+        </div>
         <!-- bottom row -->
         <div class="w3-row">
-            <div class="w3-col l2"></div>
-                <div class="w3-col text-center">
+            <div class="w3-col m6">
+                <div class="w3-row">
+                    <div class="w3-col l5"><p class="w3-right">SSK 1</p></div>                        
+                    <div class="w3-col l2"><p></p></div>                        
+                    <div class="w3-col l5"><p class="w3-left">SSK 2</p></div>                        
                 </div>
-            <div class="w3-col l2"></div>
+                <div class="w3-row">
+                    <div class="w3-col l4 lp-skills-midrow text-right">
+                        <p class="skills-midrow-text">SSK 3</p>
+                    </div>                        
+
+                    <div class="w3-col l4  w3-center">
+                        <div class="lp-skills-ring lp-tooltip">
+                            <p class="skills-inner-text"><a href="skills.html#soft-skills">Soft<br/>Skills</a>
+                            <span class="lp-tooltip-text">Do you want to know more?<br/>Click on the text!</span></p>
+                        </div>
+                    </div>
+                    <div class="w3-col l4 lp-skills-midrow text-left">
+                        <p class="skills-midrow-text">SSK 4</p>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-col l5"><p class="w3-right">SSK 5</p></div>                        
+                    <div class="w3-col l2"><p></p></div>                        
+                    <div class="w3-col l5"><p class="w3-left">SSK 6</p></div>                        
+                </div>
+            </div>
+            <div class="w3-col m6">
+                <div class="w3-row">
+                    <div class="w3-col l5"><p class="w3-right">BN 1</p></div>                        
+                    <div class="w3-col l2"><p></p></div>                        
+                    <div class="w3-col l5"><p class="w3-left">BN 2</p></div>                        
+                </div>
+                <div class="w3-row">
+                    <div class="w3-col l4 lp-skills-midrow text-right">
+                        <p class="skills-midrow-text">BN 3</p>
+                    </div>                        
+
+                    <div class="w3-col l4  w3-center">
+                        <div class="lp-skills-ring lp-tooltip">
+                            <p class="skills-inner-text"><a href="skills.html#business-knowledge">Business knowledge</a>
+                            <span class="lp-tooltip-text">Do you want to know more?<br/>Click on the text!</span></p>
+                        </div>
+                    </div>
+                    <div class="w3-col l4 lp-skills-midrow text-left">
+                        <p class="skills-midrow-text">BN 4</p>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-col l5"><p class="w3-right">BN 5</p></div>                        
+                    <div class="w3-col l2"><p></p></div>                        
+                    <div class="w3-col l5"><p class="w3-left">BN 6</p></div>                        
+                </div>
+            </div>
         </div>
+
     </section>
-<!-- Footer -->
-
-    <footer class="w3-container footer">
-        <div class="w3-row">
-            <div class="w3-col">
-                <hr class="hr-footer">
-            </div>
-        </div>
-        <div class="w3-row">
-            <div class="w3-col">
-                <p>Copyright, 2024</p>
-            </div>
-        </div>
-    </footer>
-
 </div> <!-- EOF lp-desktop -->
 
 
@@ -98,6 +140,20 @@
     <p>This is a mobile view</p>
 </div> <!-- EOF lp-mobile -->
 
+
+<!-- Footer -->
+<footer class="w3-container footer">
+    <div class="w3-row">
+        <div class="w3-col">
+            <div class="social-icons-circle w3-circle w3-border">
+                <p class="social-icons">
+                    <a href="https://www.linkedin.com/in/andris-jancevskis" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ajandris" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
