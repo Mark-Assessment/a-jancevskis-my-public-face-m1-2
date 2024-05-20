@@ -22,8 +22,12 @@ body{
     background-size: 100%;
 }
 
-p, h1, h2, h3, h4, h5, h6{
+p, h1, h2, h3, h4, h5, h6, a{
     color: #fafafa;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Exo", sans-serif;
 }
 
 
@@ -34,7 +38,6 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 #lp-desktop h1{
-    font-family: "Exo", sans-serif;
     font-weight: 900;
     font-size: 2.4em;
     letter-spacing: 0em;
@@ -43,7 +46,6 @@ p, h1, h2, h3, h4, h5, h6{
 
 
 #lp-desktop h3{
-    font-family: "Exo", sans-serif;
     font-weight: 300;
     font-size: 1.8em;
     letter-spacing: 0em;
@@ -51,7 +53,6 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 #lp-desktop h4{
-    font-family: "Exo", sans-serif;
     font-weight: 300;
     font-size: 1.4em;
     letter-spacing: 0em;
@@ -65,7 +66,8 @@ p, h1, h2, h3, h4, h5, h6{
 
 #lp-menu{
     padding-top: 0.6em;
-    text-align: right;
+    padding-right: 0.6em;
+    text-align: center;
 }
 
 #lp-menu a{
@@ -86,11 +88,36 @@ p, h1, h2, h3, h4, h5, h6{
     border: 1px;
 }
 
-.hr-footer{
-    border-style: solid;
-    size: 1px;
-    width: 30%;
-    margin: auto;
+#mob-menu{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    padding: 0;
+    text-align:center;
+}
+
+#mob-menu a{
+    text-decoration: none;
+    background-color: #34281d; 
+    width: 95%; 
+    margin: 1px auto 1px auto; 
+    padding: 0; 
+    display: block;
+    height: 100%;
+}
+
+#mob-menu a:hover{
+    background-color: rgba(120,120,120, 1);
+}
+
+#mob-menu .menu-active{
+    background-color: rgba(120,120,120, 0.75);
+}
+
+.mobile-footer-hr{
+    width: 50%;
+    color:#fafafa;
+    margin: 0 auto 0 auto;
 }
 
 /* --- general use styles --- */
@@ -113,11 +140,16 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 .skills-inner-text{
-    color: rgb(61, 54, 54) !important;
+    color: rgb(61, 54, 54);
     font-weight: 800;
     font-size: 1em;
     padding-top: 0.8em;
     letter-spacing: 0;
+}
+
+.skills-inner-text a{
+    color: rgb(61, 54, 54);
+    text-decoration: none;
 }
 
 .lp-tooltip {
@@ -132,13 +164,14 @@ p, h1, h2, h3, h4, h5, h6{
     width: 250px;
     background-color: #1e2a30 ;
     text-align: center;
+    color: #fafafa;
     border-radius: 6px;
     padding: 2px 0;
     position: absolute;
     bottom: 100%;
-    left: 50%;
+    left: 15%;
     margin-left: 5px;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 .lp-tooltip:hover .lp-tooltip-text {
@@ -211,6 +244,17 @@ p, h1, h2, h3, h4, h5, h6{
     margin-right: auto;
 }
 
+.mob-aj-picture{
+    width: 230px;
+    height: 240px;
+    position: relative;
+    top: 7px;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #fafafa;
+}
+
 @media screen and (min-width: 993px) {
     #lp-mobile{
         display: none;
@@ -225,9 +269,9 @@ p, h1, h2, h3, h4, h5, h6{
         background-image: none;
         background-color: #121114;
         /*
-        Color parts of background picture in lp-desktop
-        darker 1e2a30
+        Colors on background picture in lp-desktop
         brownish 34281d
+        darker 1e2a30
         even darker 121114
         */
     }

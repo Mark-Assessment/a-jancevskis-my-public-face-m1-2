@@ -1,6 +1,6 @@
 # Andris Jancevskis space
 ## Introduction
-This is a part of me for the public.
+This is a part of me for the public. It can be seen on GitHub pages https://ajandris.github.io/my-public-face/.
 
 ## Site's description
 This part will be filled AFTER Stage 1 is completed.
@@ -30,7 +30,7 @@ This part will be filled AFTER Stage 1 is completed.
 - [ ] Contents for Desktops
 - [ ] Contents for other devices
 
-- [ ] replace copyright with social icons in footer
+- [X] replace copyright with social icons in footer
 
 ### Testing
 - [ ] Testing
@@ -39,7 +39,9 @@ This part will be filled AFTER Stage 1 is completed.
 
 ### Other
 - [ ] Acknowlegements
-- [ ] Site's Desciption
+- [ ] Site's Description
+- [ ] Real skills on landing page.
+- [ ] Prepare CV
 
 ## Development
 This part is dedicated to the page's development.
