@@ -7,9 +7,8 @@ This part will be filled AFTER Stage 1 is completed.
 
 
 ## ToDo
-> Expand and change ToDo as development progresses. 
-> The current Stage is: Development of Stage 1
-
+> Expand and change ToDo as development progresses.
+> The current Stage is: Development of Stage 1.
 
 - [x] Create README.md structure
 
@@ -23,14 +22,22 @@ This part will be filled AFTER Stage 1 is completed.
 - [ ] Adjust Readme to user Stories (detailed Stage 1 description using user stories)
 
 ### Coding
-- [ ] Landing page desktop version
-- [ ] Landing page desktop other devices
+- [X] Landing page desktop version
+- [X] Landing page mobile devices
 - [ ] Header and Footer for Desktops
 - [ ] Header and Footer for other devices
 - [ ] Contents for Desktops
 - [ ] Contents for other devices
 
 - [X] replace copyright with social icons in footer
+
+#### Pages
+- [X] Landing page
+- [ ] Skills page
+- [ ] Experience (CV web version)
+- [ ] Contact
+- [ ] Contact Thank You page
+
 
 ### Testing
 - [ ] Testing
@@ -40,7 +47,7 @@ This part will be filled AFTER Stage 1 is completed.
 ### Other
 - [ ] Acknowlegements
 - [ ] Site's Description
-- [ ] Real skills on landing page.
+- [X] Real skills on landing page.
 - [ ] Prepare CV
 
 ## Development
