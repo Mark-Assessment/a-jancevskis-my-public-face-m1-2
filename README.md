@@ -20,6 +20,7 @@ This part will be filled AFTER Stage 1 is completed.
 - [X] Surface Plane
 
 - [ ] Adjust Readme to user Stories (detailed Stage 1 description using user stories)
+- [ ] Desribe technologies used
 
 ### Coding
 - [X] Landing page desktop version

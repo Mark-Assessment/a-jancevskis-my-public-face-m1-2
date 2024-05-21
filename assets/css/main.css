@@ -16,10 +16,9 @@ body{
     margin: 0;
     height: 100%;
     width: 100%;
-
     background-image: url('../images/lp-background-2.gif');
     background-size: cover;
-    background-position: right;
+    background-position: right top;
     background-repeat: no-repeat;
     background-color: #121114;
 }
@@ -33,7 +32,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-/* --- Desktop Landing Page --- */
+/* --- Main part of this CSS --- */
 
 #lp-desktop{
     padding-top: 0.8em;
@@ -90,15 +89,16 @@ h1, h2, h3, h4, h5, h6{
     border: 1px;
 }
 
-#mob-menu{
+.menu{
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 5px;
-    padding: 0;
+    padding: auto  0 0 0;
     text-align:center;
+
 }
 
-#mob-menu a{
+.menu a{
     text-decoration: none;
     background-color: #34281d; 
     width: 95%; 
@@ -108,11 +108,11 @@ h1, h2, h3, h4, h5, h6{
     height: 100%;
 }
 
-#mob-menu a:hover{
+.menu a:hover{
     background-color: rgba(120,120,120, 1);
 }
 
-#mob-menu .menu-active{
+.menu .menu-active{
     background-color: rgba(120,120,120, 0.75);
 }
 
@@ -254,11 +254,9 @@ h1, h2, h3, h4, h5, h6{
 .mob-aj-picture{
     width: 230px;
     height: 240px;
-    position: relative;
-    top: 7px;
     border-style: solid;
-    border-radius: 6px;
-    border-width: 1px;
+    border-radius: 0px;
+    border-width: 0px;
     border-color: #fafafa;
 }
 
@@ -271,13 +269,18 @@ h1, h2, h3, h4, h5, h6{
     font-size: 0.8em;
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 993px) { /* -- Desktop screen -- */
     #lp-mobile{
         display: none;
     }
+
+    #header-buffer-row{
+        height: 73px;
+    }
+
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 993px) { /* -- Mobile and Tablets screen -- */
     #lp-desktop{
         display: none;
     }
@@ -293,15 +296,33 @@ h1, h2, h3, h4, h5, h6{
     }
 
     #lp-mobile{
-        display: all;
+        display: initial;
     }
+
+    #header-buffer-row{
+            height: 49px;
+    }
+
 }
 
-@media screen and (max-width: 600px) {
 
-    #mob-menu a{
+@media screen and (max-width: 600px) { /* -- Mobile screen -- */
+
+    .menu a{
         width: 100%;
     }
 
+    #img-wrapper{
+        width: 100%;
+        text-align: center;
+    }
 
+}
+
+/* -- Fine-tunings -- */
+
+@media screen and (max-width: 691px) { /* -- Motto goes to two lines -- */
+    #header-buffer-row{
+        height: 25px;
+    }
 }
