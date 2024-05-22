@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Exo", sans-serif;
 }
 
+section{
+    padding: 0;
+    margin: 0;
+}
 
 /* --- Main part of this CSS --- */
 
@@ -90,11 +94,10 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .menu{
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 5px;
-    padding: auto  0 0 0;
+    margin: 5px auto 0 auto;
     text-align:center;
+    width: 80%;
+    position:relative;
 
 }
 
@@ -118,6 +121,12 @@ h1, h2, h3, h4, h5, h6{
 
 .mobile-footer-hr{
     width: 50%;
+    color:#fafafa;
+    margin: 0 auto 0 auto;
+}
+
+.footer-hr{
+    width: 25%;
     color:#fafafa;
     margin: 0 auto 0 auto;
 }
@@ -269,6 +278,57 @@ h1, h2, h3, h4, h5, h6{
     font-size: 0.8em;
 }
 
+.main-content{
+    width: 90%;
+    margin: 20px auto 0 auto;
+    background-color:rgba(30, 42, 48, 0.75);
+}
+
+.main-content h2{
+    font-weight: initial;
+    text-align: center;
+    font-family: Arial;
+}
+
+.main-content-text-cell{
+    color:#fafafa;
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.main-content-text-cell h3{
+    font-weight: initial;
+    text-align: center;
+    font-family: Arial;
+    padding-top: 10px;
+}
+
+.progress-bar-outer{
+    border-radius: 6px;
+    border-color: darkgray;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.progress-bar-inner{
+    height: 20px;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+.progress-bar-inner span{
+    color:black;
+    font-weight: 700;
+}
+
+.progress-bar-inner p{
+    color:black;
+    font-weight: 700;
+}
+
 @media screen and (min-width: 993px) { /* -- Desktop screen -- */
     #lp-mobile{
         display: none;
@@ -278,9 +338,17 @@ h1, h2, h3, h4, h5, h6{
         height: 73px;
     }
 
+    .menu{
+        width: 100%;
+    }
+
+    .main-content{
+        width: 95%;
+    }
+
 }
 
-@media screen and (max-width: 993px) { /* -- Mobile and Tablets screen -- */
+@media screen and (max-width: 992px) { /* -- Mobile and Tablets screen -- */
     #lp-desktop{
         display: none;
     }
@@ -303,6 +371,10 @@ h1, h2, h3, h4, h5, h6{
             height: 49px;
     }
 
+    .main-content{
+        width: 98%;
+    }
+
 }
 
 
@@ -321,8 +393,12 @@ h1, h2, h3, h4, h5, h6{
 
 /* -- Fine-tunings -- */
 
-@media screen and (max-width: 691px) { /* -- Motto goes to two lines -- */
+@media screen and (max-width: 715px) { /* -- Motto should go to two lines -- */
+    .motto{
+        width: 80%;
+        margin: 0 auto 0 auto;
+    }
     #header-buffer-row{
-        height: 25px;
+        height: 35px;
     }
 }
