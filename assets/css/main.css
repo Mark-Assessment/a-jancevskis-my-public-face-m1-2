@@ -410,6 +410,44 @@ section{
     background-color: transparent;
 }
 
+.contact-form{
+    color:#fafafa;
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.contact-form input{
+    border: 1 solid;
+    border-radius: 2px;
+    background-color:#fafafa;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.contact-form textarea{
+    width: 100%;
+}
+
+.contact-form label{
+    font-weight: bold;
+}
+
+.contact-form button{
+    display: block;
+    margin: 0 auto 15px auto;
+    font-weight: bold;
+    color:#121114;
+    border-color:#121114;
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: grey;
+}
+
+.contact-form button:hover{
+    color:#fafafa;
+    background-color: green;
+}
 
 
 @media screen and (min-width: 993px) { /* -- Desktop screen -- */
@@ -431,7 +469,7 @@ section{
 
 }
 
-@media screen and (max-width: 992px) { /* -- Mobile and Tablets screen -- */
+@media screen and (max-width: 992px) { /* -- Less than Desktop -- */
     #lp-desktop{
         display: none;
     }
@@ -481,6 +519,7 @@ section{
     }
 
 }
+
 
 /* -- Fine-tunings -- */
 
