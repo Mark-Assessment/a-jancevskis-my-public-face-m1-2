@@ -27,8 +27,8 @@ This part will be filled AFTER Stage 1 is completed.
 - [X] Landing page mobile devices
 - [X] Header and Footer for Desktops
 - [X] Header and Footer for other devices
-- [ ] Contents for Desktops
-- [ ] Contents for other devices
+- [X] Contents for Desktops
+- [X] Contents for other devices
 
 - [X] replace copyright with social icons in footer
 
@@ -36,8 +36,8 @@ This part will be filled AFTER Stage 1 is completed.
 - [X] Landing page
 - [X] Skills page
 - [X] Experience (CV web version)
-- [ ] Contact
-- [ ] Contact Thank You page
+- [X] Contact
+- [X] Contact Thank You page
 
 
 ### Testing
