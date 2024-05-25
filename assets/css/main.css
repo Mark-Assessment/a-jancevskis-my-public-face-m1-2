@@ -412,8 +412,9 @@ section{
 
 .contact-form{
     color:#fafafa;
-    width: 50%;
+    width: 60%;
     margin: 0 auto 0 auto;
+    padding: 0;
 }
 
 .contact-form input{
@@ -500,6 +501,10 @@ section{
         width: 90%;
     }
 
+    .contact-form{
+        width: 80%;
+    }
+    
 }
 
 
@@ -518,6 +523,9 @@ section{
         width: 98%;
     }
 
+    .contact-form{
+        width: 98%;
+    }
 }
 
 
