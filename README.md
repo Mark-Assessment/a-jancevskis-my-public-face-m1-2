@@ -25,8 +25,8 @@ This part will be filled AFTER Stage 1 is completed.
 ### Coding
 - [X] Landing page desktop version
 - [X] Landing page mobile devices
-- [ ] Header and Footer for Desktops
-- [ ] Header and Footer for other devices
+- [X] Header and Footer for Desktops
+- [X] Header and Footer for other devices
 - [ ] Contents for Desktops
 - [ ] Contents for other devices
 
@@ -34,8 +34,8 @@ This part will be filled AFTER Stage 1 is completed.
 
 #### Pages
 - [X] Landing page
-- [ ] Skills page
-- [ ] Experience (CV web version)
+- [X] Skills page
+- [X] Experience (CV web version)
 - [ ] Contact
 - [ ] Contact Thank You page
 
@@ -49,7 +49,7 @@ This part will be filled AFTER Stage 1 is completed.
 - [ ] Acknowlegements
 - [ ] Site's Description
 - [X] Real skills on landing page.
-- [ ] Prepare CV
+- [X] Prepare CV
 
 ## Development
 This part is dedicated to the page's development.
