@@ -329,6 +329,89 @@ section{
     font-weight: 700;
 }
 
+.exp-legend{
+    margin: 0;
+    padding: 0;
+    width: 300;
+
+}
+
+.leg-bar{
+    width: 150px;
+    height: 20px;
+}
+
+.color-for-work{
+    background-color: sandybrown;
+}
+
+.color-for-education{
+    background-color: tomato;
+}
+
+.experience-container{
+    margin: 0 auto 0 auto;
+    padding: 0;
+    width: 80%;
+}
+
+.experience-container p{
+    text-align: left;
+}
+
+.exp-work{
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+
+.exp-years{
+    color:#121114;
+    font-weight: 600;
+    margin: 0 0 0 5px;
+}
+
+.exp-where{
+    color:#121114;
+    font-weight: 900;
+    margin: 0 0 0 5px;
+
+}
+
+.exp-work ul{
+    text-align: left;
+    margin:0;
+}
+.exp-work li{
+    position: relative;
+    left: -15px;
+}
+
+.exp-education{
+    margin: 5px 5px 0 30px;
+    border: 1px solid;
+}
+
+.exp-edu-provider{
+    margin: 0 0 0 5px;
+    color: #121114;
+}
+
+.exp-edu-result{
+    margin: 0 0 0 5px;
+    color: #121114;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.work-fake-div{
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    background-color: transparent;
+}
+
+
+
 @media screen and (min-width: 993px) { /* -- Desktop screen -- */
     #lp-mobile{
         display: none;
@@ -375,6 +458,10 @@ section{
         width: 98%;
     }
 
+    .experience-container{
+        width: 90%;
+    }
+
 }
 
 
@@ -387,6 +474,10 @@ section{
     #img-wrapper{
         width: 100%;
         text-align: center;
+    }
+
+    .experience-container{
+        width: 98%;
     }
 
 }
