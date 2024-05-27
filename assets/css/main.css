@@ -36,6 +36,10 @@ section{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* --- Main part of this CSS --- */
 
 #lp-desktop{
