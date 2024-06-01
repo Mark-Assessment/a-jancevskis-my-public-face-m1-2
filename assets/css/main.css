@@ -464,7 +464,9 @@ a{
         height: 73px;
     }
 
+
     .menu{
+        margin-top: 10px; 
         width: 100%;
     }
 
@@ -539,8 +541,5 @@ a{
     .motto{
         width: 80%;
         margin: 0 auto 0 auto;
-    }
-    #header-buffer-row{
-        height: 35px;
     }
 }
