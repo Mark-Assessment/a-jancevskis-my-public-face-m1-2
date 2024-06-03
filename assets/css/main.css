@@ -84,6 +84,18 @@ a{
     color: #fafafa;
 }
 
+#lp-menu a:hover{
+    text-decoration: underline;
+}
+
+#lp-short-intro{
+    width: 80%;
+}
+
+#lp-short-intro p{
+    padding-top: 10px
+}
+
 #lp-aj-pic-div{
     width: 160px;
     height: 160px;
@@ -96,6 +108,9 @@ a{
     margin-top: 20px;
     border: 1px;
 }
+
+
+/*--- menu bar ---*/
 
 .menu{
     margin: 5px auto 0 auto;
@@ -123,6 +138,8 @@ a{
     background-color: rgba(120,120,120, 0.75);
 }
 
+/*--- footer ---*/
+
 .mobile-footer-hr{
     width: 50%;
     color:#fafafa;
@@ -135,10 +152,6 @@ a{
     margin: 0 auto 0 auto;
 }
 
-.skills-description{
-    font-size: 0.8em;
-}
-
 /* --- general use styles --- */
 
 .block{
@@ -146,6 +159,10 @@ a{
 }
 
 .font-size-0-8{
+    font-size: 0.8em;
+}
+
+.skills-description{
     font-size: 0.8em;
 }
 
@@ -273,8 +290,8 @@ a{
     height: 240px;
     border-style: solid;
     border-radius: 0px;
-    border-width: 0px;
-    border-color: #fafafa;
+    border-width: 5px;
+    border-color: transparent;
 }
 
 .mob-skills-list{
@@ -285,6 +302,8 @@ a{
     color:#fafafa;
     font-size: 0.8em;
 }
+
+/*--- main content frame ---*/
 
 .main-content{
     width: 90%;
@@ -312,6 +331,8 @@ a{
     padding-top: 10px;
 }
 
+/* --- Skills progresbars -----*/
+
 .progress-bar-outer{
     border-radius: 6px;
     border-color: darkgray;
@@ -336,6 +357,8 @@ a{
     color:black;
     font-weight: 700;
 }
+
+/*--- Experience page ---*/
 
 .exp-legend{
     margin: 0;
@@ -417,6 +440,8 @@ a{
     height: 1px;
     background-color: transparent;
 }
+
+/*--- Contact form ---*/
 
 .contact-form{
     color:#fafafa;
