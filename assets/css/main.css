@@ -336,7 +336,7 @@ a{
 .exp-legend{
     margin: 0;
     padding: 0;
-    width: 300;
+    width: 300px;
 
 }
 
@@ -422,7 +422,7 @@ a{
 }
 
 .contact-form input{
-    border: 1 solid;
+    border: 1px solid;
     border-radius: 2px;
     background-color:#fafafa;
     width: 100%;
