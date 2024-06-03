@@ -24,6 +24,7 @@ The site is designed using:
 * HTML
 * CSS
 * W3.CSS stylesheet framework
+* Font Awesome icons
 
 Some other utilities were used:
 * VS Code as Integrated Development Environment.
@@ -31,14 +32,18 @@ Some other utilities were used:
 * Grammarly to catch grammar slips and improve the text.
 * Fooocus (https://github.com/lllyasviel/Fooocus) to generate the background image.
 * Copilot and ChatGPT for quick general answers.
+* Balsamiq Wireframes.
+* Google Fonts.
 
-## ToDo
+## Development
+This part is dedicated to the page's development.
+### ToDo
 > Expand and change ToDo as development progresses.
 > The current Stage is: Development of Stage 1.
 
 - [x] Create README.md structure
 
-### Fill the details
+#### Fill the details
 - [x] Strategy plane
 - [x] Scope plane
 - [x] Structure plane
@@ -48,7 +53,7 @@ Some other utilities were used:
 - [X] Adjust Readme to user Stories (detailed Stage 1 description using user stories)
 - [X] Desribe technologies used
 
-### Coding
+#### Coding
 - [X] Landing page desktop version
 - [X] Landing page mobile devices
 - [X] Header and Footer for Desktops
@@ -58,7 +63,7 @@ Some other utilities were used:
 
 - [X] replace copyright with social icons in footer
 
-#### Pages
+##### Pages
 - [X] Landing page
 - [X] Skills page
 - [X] Experience (CV web version)
@@ -66,21 +71,20 @@ Some other utilities were used:
 - [X] Contact Thank You page
 
 
-### Testing
+#### Testing
 - [ ] Testing
 - [ ] Validator test screenshots for each page
 - [ ] Evidence of user stories being fulfilled
 
-### Other
+#### Other
 - [ ] Acknowlegements
 - [X] Site's Description
 - [X] Real skills on landing page.
 - [X] Prepare CV
 - [ ] Table of contents (if GitHub supports it)
-- [ ] Text of not sending on contact's page
+- [X] Text of not sending on contact's page
 
-## Development
-This part is dedicated to the page's development.
+
 ### Strategy plane
 #### User Stories
 ##### As a First-Time visitor
@@ -188,7 +192,7 @@ The content of pages will be consistent and accurate by meaning.
 Users with assisted technologies such as screen readers can access all content.
 
 ### Surface Plane
-Pages are responsive between a desktop and a mobile (max = 320x480px) size.
+Pages are responsive between desktop, tablet and a mobile size screens.
 
 All pages (except the desktop landing page) are uniform, with the same header and footer, and use the same font and colour patterns.
 
@@ -197,13 +201,45 @@ Due to the small project size, there is no design mock-up, and all elements will
 
 # Testing
 ## Unit tests
-### Links and page loading
-### CSS
-### HTML
-### Loading speed
+The main testing was done during development process manually.
+## Links, page loading and design
+Checking if site works in general, as intended on different browsers.
+
+|Browser                           |     Result      |
+|:---------------------------------|:---------------:|
+|Chrome                            |       Ok        |
+|Firefix                           |       Ok        |
+|Edge                              |       Ok        |
+|Opera                             |       Ok        |
+|Safari *                          |       Ok        |
+
+*) Safari for Windows has been discontinued since 2010 with version 5.1.7. I downloaded version 5.1.5. There was an issue with the ellipsis around social links - it was 100% wide instead of just around social links on the desktop landing page. I checked with the Mac user's Safari (v7.x) version, and it works as intended.
+
+
+## CSS
+Tests with Jigsaw CSS validator (https://jigsaw.w3.org/css-validator/).
+
+|Page                              |     Result      |       Comment      |    Link      |
+|:---------------------------------|:---------------:|:-------------------|:------------:|
+|index.html                        |       Ok        |                    | <a href="assets/readme/css-validator/index-result.jpg" target="_blank">Link to index result</a> |
+|experience.html                   |       Ok        |                    | <a href="assets/readme/css-validator/experience-result.jpg" target="_blank">Link to experience result</a> |
+|contact-me.html                   |       Ok        |                    | <a href="assets/readme/css-validator/contact-me-result.jpg" target="_blank">Link to contact-me result</a> |
+|skills.html                       |       Ok        |                    | <a href="assets/readme/css-validator/skills-result.jpg" target="_blank">Link to skills result</a> |
+
+1. Errors were in main.css wish is used for all pages:
+    * *.exp-legend* has no measurement for width
+    * *.contact-form* input has no measurement for border
+Re-checked main.css file only, no errors found.
+2. There are font-awesome errors which I am not in control of.
+
+## HTML
+
+## Loading speed
 
 ## Acceptance test
 Fulfillment of user stories
+
+
 
 ## Acknowledgements
 
