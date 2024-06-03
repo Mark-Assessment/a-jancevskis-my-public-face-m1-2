@@ -4,13 +4,21 @@ This is a part of me for the public. It can be seen on GitHub pages https://ajan
 
 ## Site's description
 The site is designed to encourage visitors to explore my knowledge and skills and contact me when necessary.
+
 All pages, except the landing page for desktop users, have a uniform responsive design. Pages have a brown background with close-to-white letters. The title and motto are in the top centre, while my photo is in the left corner. The menu is underneath the image and the title.
+
 The main content’s background of each page is a little darker and transparent, so the pages' backgrounds are still visible.
-The footer has links to my social media profiles on LinkedIn and GitHub.
-The landing page for desktop users is a gateway to a world of my knowledge and skills. My photo, a focal point, is encircled by skill groups that resemble planets. Each skill group is further adorned with its specific skills, akin to satellites. Hovering the mouse over a skill group not only reveals a link to the skills page’s header but also extends a warm invitation to explore more, encouraging you to delve deeper into my expertise.
-The skills page uses colourful bars to express my estimated skills percentage.
-The experience page embeds training and education into my work history to show what I learned while working.
-The contact page does not have a sending message functionality as that would be a Stage 2 task to implement it. However, the feedback page is shown whilst trying to send a message.
+
+**The footer** has links to my social media profiles on LinkedIn and GitHub.
+
+**The landing page** for desktop users is a gateway to a world of my knowledge and skills. My photo, a focal point, is encircled by skill groups that resemble planets. Each skill group is further adorned with its specific skills, akin to satellites. Hovering the mouse over a skill group not only reveals a link to the skills page’s header but also extends a warm invitation to explore more, encouraging you to delve deeper into my expertise.
+
+**The skills page** uses colourful bars to express my estimated skills percentage.
+
+**The experience page** embeds training and education into my work history to show what I learned while working.
+
+**The contact page** does not have a sending message functionality, as implementing it would be a Stage 2 task. However, the feedback page is shown when trying to send a message.
+
 ### Used Technologies
 The site is designed using:
 * HTML
@@ -22,6 +30,7 @@ Some other utilities were used:
 * GitHub to store code and version control.
 * Grammarly to catch grammar slips and improve the text.
 * Fooocus (https://github.com/lllyasviel/Fooocus) to generate the background image.
+* Copilot and ChatGPT for quick general answers.
 
 ## ToDo
 > Expand and change ToDo as development progresses.
@@ -36,7 +45,7 @@ Some other utilities were used:
 - [X] Skeleton Plane
 - [X] Surface Plane
 
-- [ ] Adjust Readme to user Stories (detailed Stage 1 description using user stories)
+- [X] Adjust Readme to user Stories (detailed Stage 1 description using user stories)
 - [X] Desribe technologies used
 
 ### Coding
@@ -64,24 +73,41 @@ Some other utilities were used:
 
 ### Other
 - [ ] Acknowlegements
-- [ ] Site's Description
+- [X] Site's Description
 - [X] Real skills on landing page.
 - [X] Prepare CV
+- [ ] Table of contents (if GitHub supports it)
+- [ ] Text of not sending on contact's page
 
 ## Development
 This part is dedicated to the page's development.
 ### Strategy plane
+#### Stage 1 User Stories
+##### As a First-Time visitor
+1. As a First-Time visitor, I want to understand what this site is about and what I can learn from it.
+2. As a First-Time Visitor, I want to find all the information quickly.
+
+##### As a Recruiter
+1. As a recruiter, I want to download the CV.
+2. As a recruiter, I want to be able to access the contact information I need with ease and efficiency.
+3. As a recruiter, I want to explore more about a person in social networks.
+4. As a recruiter, I want to know a person's projects.
+
+##### As a Site Owner
+1. As a site owner, I want to create a professional web presence that includes my skills and experience.
+2. As a site owner, I want to be easily contactable by recruiters.
+
 #### User requirements
 The purpose of the space is to market myself and get hired. The following requirements reflect this purpose.
-•	Used technologies should reflect my skills in UI design and development.
-•	It contains the list of skills and experience I have acquired. The accent should be on IT skills with complementary business skills.
-•	The first page (landing page) should be eye-catching and encourage a visitor to explore further.
-•	The site contains links to my Facebook, GitHub and LinkedIn profiles.
-•	There is an opportunity to download the whole CV.
-•	It must have a Contact page.
-•	Pass Code Institute assessment.
+* Used technologies should reflect my skills in UI design and development.
+* It contains the list of skills and experience I have acquired. The accent should be on IT skills with complementary business skills.
+* The first page (landing page) should be eye-catching and encourage a visitor to explore further.
+* The site contains links to my Facebook, GitHub and LinkedIn profiles.
+* There is an opportunity to download the whole CV.
+* It must have a Contact page.
+* Pass Code Institute assessment.
 Optional:
-•	SEO features.
+* SEO features.
 #### Code Institute requirements
 Main Technologies
 Required: HTML, CSS
@@ -105,13 +131,14 @@ In this initial stage, the design will be created. It will not be publishable fo
 3.	A uniform for all page’s mobile version design.
 4.	Screen reader’s friendly design.
 5.	Use GitHub to save work during development.
-#### Content scope
+
+#### Stage 1 Content scope
 * Landing page with a Wow! design for desktop computers and tablets.
 * The contact form with a Thank you page after the message is sent.
 * Skills page.
 * Work History
 * CV download functionality.
-#### Out of scope
+#### Out of Stage 1 scope
 Here is the listed functionality that is to be implemented to make pages publishable.
 * Actual sending email from the contact form. This requires server-side programming.
 * ReCAPTCHA in the contact form.
