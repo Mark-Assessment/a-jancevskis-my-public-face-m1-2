@@ -166,6 +166,10 @@ a{
     letter-spacing: 0;
 }
 
+#sw-circle-text{
+    font-size: 0.95em;
+}
+
 .skills-inner-text a{
     color: rgb(61, 54, 54);
     text-decoration: none;
