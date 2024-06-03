@@ -83,6 +83,7 @@ This part is dedicated to the page's development.
 - [X] Prepare CV
 - [ ] Table of contents (if GitHub supports it)
 - [X] Text of not sending on contact's page
+- [ ] Deployment description
 
 
 ### Strategy plane
@@ -110,6 +111,7 @@ The purpose of the space is to market myself and get hired. The following requir
 * There is an opportunity to download the whole CV.
 * It must have a Contact page.
 * Pass Code Institute assessment.
+
 Optional:
 * SEO features.
 #### Code Institute requirements
@@ -219,22 +221,39 @@ Checking if site works in general, as intended on different browsers.
 ## CSS
 Tests with Jigsaw CSS validator (https://jigsaw.w3.org/css-validator/).
 
-|Page                              |     Result      |       Comment      |    Link      |
-|:---------------------------------|:---------------:|:-------------------|:------------:|
-|index.html                        |       Ok        |                    | <a href="assets/readme/css-validator/index-result.jpg" target="_blank">Link to index result</a> |
-|experience.html                   |       Ok        |                    | <a href="assets/readme/css-validator/experience-result.jpg" target="_blank">Link to experience result</a> |
-|contact-me.html                   |       Ok        |                    | <a href="assets/readme/css-validator/contact-me-result.jpg" target="_blank">Link to contact-me result</a> |
-|skills.html                       |       Ok        |                    | <a href="assets/readme/css-validator/skills-result.jpg" target="_blank">Link to skills result</a> |
+|Page                              |     Result      |          Link      |
+|:---------------------------------|:---------------:|:------------------:|
+|index.html                        |       Ok        | <a href="assets/readme/css-validator/index-result.jpg" target="_blank">Link to index result</a> |
+|experience.html                   |       Ok        | <a href="assets/readme/css-validator/experience-result.jpg" target="_blank">Link to experience result</a> |
+|contact-me.html                   |       Ok        | <a href="assets/readme/css-validator/contact-me-result.jpg" target="_blank">Link to contact-me result</a> |
+|skills.html                       |       Ok        | <a href="assets/readme/css-validator/skills-result.jpg" target="_blank">Link to skills result</a> |
 
 1. Errors were in main.css wish is used for all pages:
     * *.exp-legend* has no measurement for width
     * *.contact-form* input has no measurement for border
-Re-checked main.css file only, no errors found.
+    * Corrected and re-checked main.css file only, no errors found.
 2. There are font-awesome errors which I am not in control of.
 
 ## HTML
+Tests with HTML validator (https://validator.w3.org/).
+
+|Page                              |     Result      |       Comment      |    Link      |
+|:---------------------------------|:---------------:|:-------------------|:------------:|
+|index.html                        |       Ok        | Errors link  <a href="assets/readme/html-validator/index-errors.jpg" target="_blank">Link to errors screenshot</a> | <a href="assets/readme/html-validator/index-result.jpg" target="_blank">Link to index result</a> |
+|experience.html                   |       Ok        |Errors link  <a href="assets/readme/html-validator/experience-errors.jpg" target="_blank">Link to errors screenshot</a> | <a href="assets/readme/html-validator/experience-result.jpg" target="_blank">Link to experience result</a> |
+|contact-me.html                   |       Ok        |Errors link  <a href="assets/readme/html-validator/contact-me-errors.jpg" target="_blank">Link to errors screenshot</a> Added id attribute to textarea | <a href="assets/readme/html-validator/contact-me-result.jpg" target="_blank">Link to contact-me result</a> |
+|skills.html                       |       Ok        |                    | <a href="assets/readme/html-validator/skills-result.jpg" target="_blank">Link to skills result</a> |
+|thank-you.html                    |       Ok        |                    | <a href="assets/readme/html-validator/thank-you-result.jpg" target="_blank">Link to thank-you page's result</a> |
+
+1. All designs were made using a non-working Google Fonts link, which gave an error. Google font was used only on the index page. Google Fonts were removed completely as redundant.
+2. Replaced '<br/>' tag with '<br>' as validator suggested.
+3. The validation warning about the absence of a section header is not targeted, as the section tag holds a specific semantic meaning in the project and represents a block between the heading and footer, providing a clear structure to my design.
+
+* There were unclosed div tag on all pages. Fixed it and re-checked. 
 
 ## Loading speed
+Chrome Developer Tools Lighthouse testing.
+
 
 ## Acceptance test
 Fulfillment of user stories
