@@ -3,8 +3,25 @@
 This is a part of me for the public. It can be seen on GitHub pages https://ajandris.github.io/my-public-face/.
 
 ## Site's description
-This part will be filled AFTER Stage 1 is completed.
+The site is designed to encourage visitors to explore my knowledge and skills and contact me when necessary.
+All pages, except the landing page for desktop users, have a uniform responsive design. Pages have a brown background with close-to-white letters. The title and motto are in the top centre, while my photo is in the left corner. The menu is underneath the image and the title.
+The main content’s background of each page is a little darker and transparent, so the pages' backgrounds are still visible.
+The footer has links to my social media profiles on LinkedIn and GitHub.
+The landing page for desktop users is a gateway to a world of my knowledge and skills. My photo, a focal point, is encircled by skill groups that resemble planets. Each skill group is further adorned with its specific skills, akin to satellites. Hovering the mouse over a skill group not only reveals a link to the skills page’s header but also extends a warm invitation to explore more, encouraging you to delve deeper into my expertise.
+The skills page uses colourful bars to express my estimated skills percentage.
+The experience page embeds training and education into my work history to show what I learned while working.
+The contact page does not have a sending message functionality as that would be a Stage 2 task to implement it. However, the feedback page is shown whilst trying to send a message.
+### Used Technologies
+The site is designed using:
+* HTML
+* CSS
+* W3.CSS stylesheet framework
 
+Some other utilities were used:
+* VS Code as Integrated Development Environment.
+* GitHub to store code and version control.
+* Grammarly to catch grammar slips and improve the text.
+* Fooocus (https://github.com/lllyasviel/Fooocus) to generate the background image.
 
 ## ToDo
 > Expand and change ToDo as development progresses.
@@ -20,7 +37,7 @@ This part will be filled AFTER Stage 1 is completed.
 - [X] Surface Plane
 
 - [ ] Adjust Readme to user Stories (detailed Stage 1 description using user stories)
-- [ ] Desribe technologies used
+- [X] Desribe technologies used
 
 ### Coding
 - [X] Landing page desktop version
