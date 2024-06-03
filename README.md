@@ -82,7 +82,7 @@ Some other utilities were used:
 ## Development
 This part is dedicated to the page's development.
 ### Strategy plane
-#### Stage 1 User Stories
+#### User Stories
 ##### As a First-Time visitor
 1. As a First-Time visitor, I want to understand what this site is about and what I can learn from it.
 2. As a First-Time Visitor, I want to find all the information quickly.
