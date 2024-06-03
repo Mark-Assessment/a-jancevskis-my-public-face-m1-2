@@ -253,7 +253,14 @@ Tests with HTML validator (https://validator.w3.org/).
 
 ## Loading speed
 Chrome Developer Tools Lighthouse testing.
+|Page                              |     Result      |  Link Mobile   |  Link Desktop  |
+|:---------------------------------|:---------------:|:--------------:|:--------------:|
+|index.html                        |       Ok        | <a href="assets/readme/lighthouse/index-mobile-result.jpg" target="_blank">Link to index mobile result</a> | <a href="assets/readme/lighthouse/index-desktop-result.jpg" target="_blank">Link to index desktop result</a> |
+|experience.html                   |       Ok        | <a href="assets/readme/lighthouse/experience-mobile-result.jpg" target="_blank">Link to experience mobile result</a> | <a href="assets/readme/lighthouse/experience-desktop-result.jpg" target="_blank">Link to experience desktop result</a>  |
+|contact-me.html                   |       Ok        | <a href="assets/readme/lighthouse/contact-me-mobile-result.jpg" target="_blank">Link to contact-me mobile result</a> | <a href="assets/readme/lighthouse/contact-me-desktop-result.jpg" target="_blank">Link to contact-me desktop result</a> |
+|skills.html                       |       Ok        | <a href="assets/readme/lighthouse/skills-mobile-result.jpg" target="_blank">Link to skills mobile result</a> | <a href="assets/readme/lighthouse/skills-desktop-result.jpg" target="_blank">Link to skills desktop result</a> |
 
+**NB!** performance results depend on device's performance. I had much less than 90% performance (rendering took 40% of loading time) before I closed all unnecessary browser tabs and windows.
 
 ## Acceptance test
 Fulfillment of user stories
