@@ -70,9 +70,9 @@ This part is dedicated to the page's development.
 
 
 #### Testing
-- [ ] Testing
+- [X] Testing
 - [X] Validator test screenshots for each page
-- [ ] Evidence of user stories being fulfilled
+- [X] Evidence of user stories being fulfilled
 
 #### Other
 - [ ] Acknowlegements
@@ -200,20 +200,25 @@ Due to the small project size, there is no design mock-up, and all elements will
 
 
 # Testing
-## Unit tests
-The main testing was done during development process manually.
-## Links, page loading and design
-Checking if site works in general, as intended on different browsers.
+## Manual tests
+The main testing was done during development process.
 
-|Browser                           |     Result      |
-|:---------------------------------|:---------------:|
-|Chrome                            |       Ok        |
-|Firefix                           |       Ok        |
-|Edge                              |       Ok        |
-|Opera                             |       Ok        |
-|Safari *                          |       Ok        |
+Checking if the site works in general, whether it works as intended on different browsers.
+* Links are working
+* Are pages responsive
+* Does it respond on mouse hover over links
 
-*) Safari for Windows has been discontinued since 2010 with version 5.1.7. I downloaded version 5.1.5. There was an issue with the ellipsis around social links - it was 100% wide instead of just around social links on the desktop landing page. I checked with the Mac user's Safari (v7.x) version, and it works as intended.
+|Browser    | Links    | Responsiveness | Hovering over links | Overall result |
+|:----------|:--------:|:--------------:|:-------------------:|:--------------:|
+|Chrome     | working  |  responsive    |  work as intended   |   pass         |
+|Firefix    | working  |  responsive    |  work as intended   |   pass         |
+|Edge       | working  |  responsive    |  work as intended   |   pass         |
+|Opera      | working  |  responsive    |  work as intended   |   pass         |
+|Safari *   | working  |  responsive    |  work as intended   |   pass         |
+
+*) Safari for Windows has been discontinued since 2010 with version 5.1.7. I downloaded version 5.1.5. 
+* There was an issue with the ellipsis around social links - it was 100% wide instead of just around social links on the desktop landing page. I checked with the Mac user's Safari (v7.x) version, and it works as intended.
+* The same issue was with image transform on desktop landing page. It works on latest Safari versions on Mac.
 
 
 ## CSS
@@ -260,7 +265,7 @@ Chrome Developer Tools Lighthouse testing.
 |contact-me.html                   |       Ok        | <a href="assets/readme/lighthouse/contact-me-mobile-result.jpg" target="_blank">Link to contact-me mobile result</a> | <a href="assets/readme/lighthouse/contact-me-desktop-result.jpg" target="_blank">Link to contact-me desktop result</a> |
 |skills.html                       |       Ok        | <a href="assets/readme/lighthouse/skills-mobile-result.jpg" target="_blank">Link to skills mobile result</a> | <a href="assets/readme/lighthouse/skills-desktop-result.jpg" target="_blank">Link to skills desktop result</a> |
 
-**NB!** performance results depend on device's performance. I had much less than 90% performance (rendering took 40% of loading time) before I closed all unnecessary browser tabs and windows.
+**NB!** performance results depend on device's performance, especially for mobile devices. I had much less than 90% performance (rendering took 40% of loading time) before I closed all unnecessary browser tabs and windows.
 
 ## Acceptance criteria
 ### Fulfilment of user stories
@@ -280,7 +285,7 @@ Chrome Developer Tools Lighthouse testing.
 
 | Requirement | Evidence description |
 |:------------|:---------------------|
-|Landing page with a Wow! design for desktop computers and tablets.|The desktop landing page's design is different from the rest of the site and more artistic.|
+|Landing page with a Wow! design for desktop computers and tablets.|The desktop landing page's design is more artistic and different from the rest of the site.|
 |The contact form with a Thank you page after the message is sent.|Each page has a menu item, "Contact", which leads to a contact form. When the form is submitted, the user is forwarded to the Thank you page.|
 |Skills page.|Each page has a menu item, "Skills", which leads to a skills page.|
 |Work History.|Each page has a menu item, "Experience", which leads to a experience page.|
