@@ -9,15 +9,30 @@ All pages, except the landing page for desktop users, have a uniform responsive 
 
 The main content’s background of each page is a little darker and transparent, so the pages' backgrounds are still visible.
 
+### Features
+
 **The footer** has links to my social media profiles on LinkedIn and GitHub.
+
+<img src="assets/readme/features/footer.jpg" alt="Pages' footer">
+
 
 **The landing page** for desktop users is a gateway to a world of my knowledge and skills. My photo, a focal point, is encircled by skill groups that resemble planets. Each skill group is further adorned with its specific skills, akin to satellites. Hovering the mouse over a skill group not only reveals a link to the skills page’s header but also extends a warm invitation to explore more, encouraging you to delve deeper into my expertise.
 
-**The skills page** uses colourful bars to express my estimated skills percentage.
+<a href="assets/readme/features/lp-desktop-full-size.jpg"><img src="assets/readme/features/lp-design-elements.jpg" alt="Desktop landing page's central design"></a>
 
-**The experience page** embeds training and education into my work history to show what I learned while working.
+**The skills page** uses colourful bars to express my estimated skills percentage. Click on the image to see the screenshot of the page.
 
-**The contact page** does not have a sending message functionality, as implementing it would be a Stage 2 task. However, the feedback page is shown when trying to send a message.
+<a href="assets/readme/features/skills-full-size.jpg"><img src="assets/readme/features/skills-content.jpg" alt="Skills colourful progress bars"></a>
+
+**The experience page** embeds training and education into my work history to show what I learned while working. Click on the image to see the screenshot of the page.
+
+<a href="assets/readme/features/experience-full-size.jpg"><img src="assets/readme/features/experience-design-elements.jpg" alt="Experience's colourful embedded events"></a>
+
+**The contact page** does not have a message sending  functionality, as implementing it would be a Stage 2 task. However, the feedback page is shown when trying to send a message.
+
+<img src="assets/readme/features/contact-full.jpg" alt="Contact form's screenshot">
+
+<img src="assets/readme/features/thank-you-full-page.jpg" alt="Thank You page's screenshot">
 
 ### Used Technologies
 The site is designed using:
