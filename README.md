@@ -344,14 +344,11 @@ Photo by Pixabay: https://www.pexels.com/photo/php-screengrab-270348/
 
 ## Acknowledgements
 
-To be added at the end of development
+I sincerely thank my tutor, Rachel Furlong, for her patient guidance and unwavering patience in online sessions. Her expertise and encouragement have been instrumental in my coding journey.
 
-## References
-
-- *Markdown Cheat Sheet*, https://www.markdownguide.org/cheat-sheet/ Last accessed 2024/03/30.
-- *Project Requirements*, https://learn.codeinstitute.net/courses/course-v1:code_institute+DIWAD_MS1+2022_Q1/courseware/5cc55f6df9fe41cc8dcb4d665a251ded/8341150079674a76b87da0143c45f6f9/ Last accessed 2024/03/30. 
+I am deeply grateful to my mentors, Martina Terlevic and Mitko Bachvarov, for their unwavering support and insightful critiques throughout my coding journey. Their guidance has been invaluable.
 
 ## Bibliography
-Sources in this section were used for multiple small requests.
-- *ChatGPT*, https://openai.com/chatgpt/. Last accessed 10/05/2024
-- *Bootstrap*, https://getbootstrap.com/docs/5.3/getting-started/introduction/ . Last accessed 10/05/2024
+Sources in this section were used for multiple small requests and a greater understanding of CSS and the W3.css framework.
+
+*W3Schools*, https://www.w3schools.com/. Last accessed 04/06/2024
