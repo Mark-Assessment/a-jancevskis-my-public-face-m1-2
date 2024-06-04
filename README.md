@@ -356,6 +356,11 @@ I sincerely thank my tutor, Rachel Furlong, for her patient guidance and unwaver
 
 I am deeply grateful to my mentors, Martina Terlevic and Mitko Bachvarov, for their unwavering support and insightful critiques throughout my coding journey. Their guidance has been invaluable.
 
+## References
+Code fragments (commented in main.css):
+'.footer' class: https://www.w3schools.com/howto/howto_css_fixed_footer.asp
+'tooltip' classes: https://www.w3schools.com/css/css_tooltip.asp
+
 ## Bibliography
 Sources in this section were used for multiple small requests and a greater understanding of CSS and the W3.css framework.
 
