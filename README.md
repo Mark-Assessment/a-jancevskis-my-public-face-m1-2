@@ -92,7 +92,7 @@ This part is dedicated to the page's development.
 - [X] Evidence of user stories being fulfilled
 
 #### Other
-- [ ] Acknowlegements
+- [X] Acknowlegements
 - [X] Site's Description
 - [X] Real skills on landing page.
 - [X] Prepare CV
@@ -209,12 +209,22 @@ The content of pages will be consistent and accurate by meaning.
 Users with assisted technologies such as screen readers can access all content.
 
 ### Surface Plane
-Pages are responsive between desktop, tablet and a mobile size screens.
+All pages are designed to adapt seamlessly to various screen sizes. Whether it's a desktop, tablet, or mobile screen, the user experience remains consistent and optimal.
 
 All pages (except the desktop landing page) are uniform, with the same header and footer, and use the same font and colour patterns.
 
 Due to the small project size, there is no design mock-up, and all elements will be built during development using the try-and-fix method.
 
+***Colour pattern***
+
+Background hex codes which are present on the desktop size's background image:
+* Brown: #34281d
+* Darker brown: #1e2a30
+* Even darker: #121114
+
+The main content box background colour with opacity: rgba(30, 42, 48, 0.75)
+
+Font colours: #fafafa.
 
 # Testing
 ## Manual tests
@@ -339,8 +349,6 @@ https://haneco.com.au/wp-content/uploads/2020/05/warehouse_top-banner-1024x367.j
 **Skills page** banner
 
 Photo by Pixabay: https://www.pexels.com/photo/php-screengrab-270348/
-
-
 
 ## Acknowledgements
 
