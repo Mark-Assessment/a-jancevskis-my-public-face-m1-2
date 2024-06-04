@@ -262,26 +262,29 @@ Chrome Developer Tools Lighthouse testing.
 
 **NB!** performance results depend on device's performance. I had much less than 90% performance (rendering took 40% of loading time) before I closed all unnecessary browser tabs and windows.
 
-## Acceptance test
-Fulfilment of user stories
+## Acceptance criteria
+### Fulfilment of user stories
 
 | User story | Evidence description |
 |:-----------|:---------------------|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+|As a First-Time visitor, I want to understand what this site is about and what I can learn from it.|Each page has a menu that links to all the other pages. The desktop landing page has hint text to help users start exploring the site.|
+|As a First-Time Visitor, I want to find all the information quickly.|Each page has a menu with links to all other pages.|
+| As a recruiter, I want to download the CV.|Each page has a menu item "Download CV," and the experience page has an additional link in the text.|
+|As a recruiter, I want to be able to access the contact information I need with ease and efficiency.|Each page has a menu item, "Contact", which leads to a contact form.|
+|As a recruiter, I want to explore more about a person in social networks.|For convenience, there are LinkedIn and GitHub icons with links in the footer of each page.|
+|As a recruiter, I want to know a person's projects.|There is a GitHub icon with a link in the footer of each page.|
+|As a site owner, I want to create a professional web presence that includes my skills and experience.|The website has skills and experience pages, and links in menu to downloadable CV in PDF format.|
+|As a site owner, I want to be easily contactable by recruiters.|Each page has a menu item, "Contact", which leads to a contact form.|
 
+### Stage 1 scope criteria fulfilment
 
-
-Stage 1 scope criteria fulfilment
+| Requirement | Evidence description |
+|:------------|:---------------------|
+|Landing page with a Wow! design for desktop computers and tablets.|The desktop landing page's design is different from the rest of the site and more artistic.|
+|The contact form with a Thank you page after the message is sent.|Each page has a menu item, "Contact", which leads to a contact form. When the form is submitted, the user is forwarded to the Thank you page.|
+|Skills page.|Each page has a menu item, "Skills", which leads to a skills page.|
+|Work History.|Each page has a menu item, "Experience", which leads to a experience page.|
+|CV download functionality.|Each page has a menu item "Download CV," and the experience page has an additional link in the text.|
 
 ## Attribution
 Original images are cropped to fit banner size.
