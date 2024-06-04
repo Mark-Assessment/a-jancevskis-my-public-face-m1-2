@@ -2,6 +2,8 @@
 ## Introduction
 This is a part of me for the public. It can be seen on GitHub pages https://ajandris.github.io/my-public-face/.
 
+<img src="assets/readme/other/responsive-images.jpg" alt="" style="width:70%">
+
 ## Site's description
 The site is designed to encourage visitors to explore my knowledge and skills and contact me when necessary.
 
@@ -94,9 +96,9 @@ This part is dedicated to the page's development.
 - [X] Site's Description
 - [X] Real skills on landing page.
 - [X] Prepare CV
-- [ ] Table of contents (if GitHub supports it)
+- [X] Table of contents. It is built-in into GitHub inteface.
 - [X] Text of not sending on contact's page
-- [ ] Deployment description
+- [X] Deployment description
 
 
 ### Strategy plane
@@ -305,6 +307,26 @@ Chrome Developer Tools Lighthouse testing.
 |Skills page.|Each page has a menu item, "Skills", which leads to a skills page.|
 |Work History.|Each page has a menu item, "Experience", which leads to a experience page.|
 |CV download functionality.|Each page has a menu item "Download CV," and the experience page has an additional link in the text.|
+
+
+## Deployment
+The site is deployed on GitHub Pages.
+
+<img src="assets/readme/other/github-deployment.jpg" alt="GitHub project deployment screen" style="width:70%">
+
+To deploy a project on GitHub Pages:
+1. Navigate to your project
+2. Select *Settings* on the top menu
+3. Select *Pages* on the left side menu
+4. On the main page content:
+    1. Select *Deploy from Branch*
+    2. Select Branch. Usually, for small project it is *main* and directory */(root)*
+    3. Press *Save* button
+
+Be patient, as the pages might take approximately a minute to populate. When they are ready, links in a box will appear at the top of the main content.
+
+When updating code, it might take seconds for changes to appear on the GitHub pages.
+
 
 ## Attribution
 Original images are cropped to fit banner size.
