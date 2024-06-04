@@ -31,9 +31,7 @@ Some other utilities were used:
 * GitHub to store code and version control.
 * Grammarly to catch grammar slips and improve the text.
 * Fooocus (https://github.com/lllyasviel/Fooocus) to generate the background image.
-* Copilot and ChatGPT for quick general answers.
 * Balsamiq Wireframes.
-* Google Fonts.
 
 ## Development
 This part is dedicated to the page's development.
@@ -73,7 +71,7 @@ This part is dedicated to the page's development.
 
 #### Testing
 - [ ] Testing
-- [ ] Validator test screenshots for each page
+- [X] Validator test screenshots for each page
 - [ ] Evidence of user stories being fulfilled
 
 #### Other
@@ -228,6 +226,7 @@ Tests with Jigsaw CSS validator (https://jigsaw.w3.org/css-validator/).
 |contact-me.html                   |       Ok        | <a href="assets/readme/css-validator/contact-me-result.jpg" target="_blank">Link to contact-me result</a> |
 |skills.html                       |       Ok        | <a href="assets/readme/css-validator/skills-result.jpg" target="_blank">Link to skills result</a> |
 
+### Fixed bugs
 1. Errors were in main.css wish is used for all pages:
     * *.exp-legend* has no measurement for width
     * *.contact-form* input has no measurement for border
@@ -245,6 +244,7 @@ Tests with HTML validator (https://validator.w3.org/).
 |skills.html                       |       Ok        |                    | <a href="assets/readme/html-validator/skills-result.jpg" target="_blank">Link to skills result</a> |
 |thank-you.html                    |       Ok        |                    | <a href="assets/readme/html-validator/thank-you-result.jpg" target="_blank">Link to thank-you page's result</a> |
 
+### Fixed bugs
 1. All designs were made using a non-working Google Fonts link, which gave an error. Google font was used only on the index page. Google Fonts were removed completely as redundant.
 2. Replaced '<br/>' tag with '<br>' as validator suggested.
 3. The validation warning about the absence of a section header is not targeted, as the section tag holds a specific semantic meaning in the project and represents a block between the heading and footer, providing a clear structure to my design.
@@ -263,7 +263,37 @@ Chrome Developer Tools Lighthouse testing.
 **NB!** performance results depend on device's performance. I had much less than 90% performance (rendering took 40% of loading time) before I closed all unnecessary browser tabs and windows.
 
 ## Acceptance test
-Fulfillment of user stories
+Fulfilment of user stories
+
+| User story | Evidence description |
+|:-----------|:---------------------|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+Stage 1 scope criteria fulfilment
+
+## Attribution
+Original images are cropped to fit banner size.
+
+**Experience page** banner
+
+Saved from
+https://haneco.com.au/wp-content/uploads/2020/05/warehouse_top-banner-1024x367.jpg
+
+**Skills page** banner
+
+Photo by Pixabay: https://www.pexels.com/photo/php-screengrab-270348/
 
 
 
