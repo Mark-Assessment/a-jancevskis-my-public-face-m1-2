@@ -265,12 +265,24 @@ a{
     text-align: left;
 }
 
+#cv-download, #cv-download-f{
+    width: 14px;
+    height: 14px;
+    margin: 0 0 5px 0;
+}
+
 .social-icons{
     font-size: 2em;
     margin-top: 2px;
     margin-bottom: 2px;
     margin-right: 8px;
     margin-left: 14px;
+}
+
+.social-icons img{
+    width: 35px;
+    height: 35px;
+    margin: 3px 0 5px 0;
 }
 
 .social-icons a{
