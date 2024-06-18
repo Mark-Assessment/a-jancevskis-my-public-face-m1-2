@@ -68,6 +68,12 @@ a{
     margin: 0;
 }
 
+#lp-desktop-motto{
+    font-weight: 300;
+    font-size: 1.4em;
+    letter-spacing: 0em;
+    margin: 0;
+}
 
 #lp-desktop section{
     margin-top: 24px;
