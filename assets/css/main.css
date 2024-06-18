@@ -61,17 +61,11 @@ a{
     margin: 0;
 }
 
-#lp-desktop h4{
+.motto{
+    font-family: sans-serif;
     font-weight: 300;
-    font-size: 1.4em;
-    letter-spacing: 0em;
-    margin: 0;
-}
-
-#lp-desktop-motto{
-    font-weight: 300;
-    font-size: 1.4em;
-    letter-spacing: 0em;
+    font-size: 1.3rem;
+    letter-spacing: 0.07rem;
     margin: 0;
 }
 
