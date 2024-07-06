@@ -52,6 +52,17 @@ Some other utilities were used:
 
 ## Development
 This part is dedicated to the page's development.
+
+### The Development process
+The Development of this site includes consequently following the stages described in detail in the next sections:
+1. Requirements gathering described in Strategy Plane – gathering all requirements to the Site. User Stories belong to this stage.
+2. Scope definition described in Scope Plane – defining what will be included in the first release.
+3. At the start of the design comes the Structure plane, where wireframes are used to design sketches of the pages.
+4. The result of a Skeleton plane is the Site’s navigation.
+5. The last in Development comes the Surface plane, where all design is completed for various screen sizes and audiences.
+6. Then comes the Site testing, which is performed manually using Jigsaw (CSS) and W3 Validator (HTML). Google’s Lighthouse test is used to test the site’s performance.
+
+
 ### ToDo
 > Expand and change ToDo as development progresses.
 > The current Stage is: Development of Stage 1.
