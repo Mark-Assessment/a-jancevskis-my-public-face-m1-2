@@ -312,12 +312,11 @@ Chrome Developer Tools Lighthouse testing.
 
 |ID| Requirement | Evidence description |
 |--|:------------|:---------------------|
-|RQ-1|Landing page with a Wow! design for desktop computers and tablets.|The desktop landing page's design is more artistic and different from the rest of the site.|
-|RQ-2|The contact form with a Thank you page after the message is sent.|Each page has a menu item, "Contact", which leads to a contact form. When the form is submitted, the user is forwarded to the Thank you page.|
-|RQ-3|Skills page.|Each page has a menu item, "Skills", which leads to a skills page.|
-|RQ-4|Work History.|Each page has a menu item, "Experience", which leads to a experience page.|
-|RQ-5|CV download functionality.|Each page has a menu item "Download CV," and the experience page has an additional link in the text.|
-
+|RQ-1|Landing page with a Wow! design for desktop computers and tablets.|The desktop landing page's design is more artistic and different from the rest of the site.<br><a href="assets/readme/acceptance/requirements/rq-1.jpg">Link to the Landing Page screenshot</a>|
+|RQ-2|The Contact form with a Thank you page after the message is sent.|Each page has a menu item, "Contact", which leads to a contact form. When the form is submitted, the user is forwarded to the Thank you page.<br><a href="assets/readme/acceptance/requirements/rq-2-1.jpg">Link to the Contact Form's screenshot</a><br><a href="assets/readme/acceptance/requirements/rq-2-2.jpg">Link to the Thank You Page's screenshot</a>|
+|RQ-3|Skills page.|Each page has a menu item, "Skills", which leads to a skills page.<br><a href="assets/readme/acceptance/requirements/rq-3-desktop.jpg">Link to the desktop Skills Page's screenshot</a><br><a href="assets/readme/acceptance/requirements/rq-3-mobile.jpg">Link to the mobile Skill Page's screenshot</a>|
+|RQ-4|Work History.|Each page has a menu item, "Experience", which leads to a experience page.<br><a href="assets/readme/acceptance/requirements/rq-4-desktop.jpg">Link to the desktop Experience Page's screenshot</a><br><a href="assets/readme/acceptance/requirements/rq-4-mobile.jpg">Link to the mobile Experience Page's screenshot</a>|
+|RQ-5|CV download functionality.|Each page has a menu item "Download CV," and the Experience page has an additional link in the text.<br><a href="assets/readme/acceptance/requirements/rq-5-desktop.jpg">Link to the desktop screenshot</a><br><a href="assets/readme/acceptance/requirements/rq-5-mobile.jpg">Link to the mobile screenshot</a>||
 
 ## Deployment
 The site is deployed on GitHub Pages.
