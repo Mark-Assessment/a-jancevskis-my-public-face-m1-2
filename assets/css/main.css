@@ -590,8 +590,9 @@ a{
 
 /* -- Fine-tunings -- */
 
-@media screen and (max-width: 715px) { /* -- Motto should go to two lines -- */
-    .motto{
+@media screen and (max-width: 715px) { /* -- Motto and header should go to two lines -- */
+    .motto,
+    header.h3{
         width: 80%;
         margin: 0 auto 0 auto;
     }
