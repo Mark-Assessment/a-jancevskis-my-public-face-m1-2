@@ -297,26 +297,26 @@ Chrome Developer Tools Lighthouse testing.
 ## Acceptance criteria
 ### Fulfilment of user stories
 
-| User story | Evidence description |
-|:-----------|:---------------------|
-|As a First-Time visitor, I want to understand what this site is about and what I can learn from it.|Each page has a menu that links to all the other pages. The desktop landing page has hint text to help users start exploring the site.|
-|As a First-Time Visitor, I want to find all the information quickly.|Each page has a menu with links to all other pages.|
-| As a recruiter, I want to download the CV.|Each page has a menu item "Download CV," and the experience page has an additional link in the text.|
-|As a recruiter, I want to be able to access the contact information I need with ease and efficiency.|Each page has a menu item, "Contact", which leads to a contact form.|
-|As a recruiter, I want to explore more about a person in social networks.|For convenience, there are LinkedIn and GitHub icons with links in the footer of each page.|
-|As a recruiter, I want to know a person's projects.|There is a GitHub icon with a link in the footer of each page.|
-|As a site owner, I want to create a professional web presence that includes my skills and experience.|The website has skills and experience pages, and links in menu to downloadable CV in PDF format.|
-|As a site owner, I want to be easily contactable by recruiters.|Each page has a menu item, "Contact", which leads to a contact form.|
+|ID| User story | Evidence description |
+|--|:-----------|:---------------------|
+|US-1|As a First-Time visitor, I want to understand what this site is about and what I can learn from it.|Each page has a menu that links to all the other pages. The desktop landing page has hint text to help users start exploring the site.<br><a href="assets/readme/acceptance/user-stories/us-1-desktop.jpg">Link to the desktop screenshot</a><br><a href="assets/readme/acceptance/user-stories/us-1-mobile.jpg">Link to the mobile screenshot</a>|
+|US-2|As a First-Time Visitor, I want to find all the information quickly.|Each page has a menu with links to all other pages.<br><a href="assets/readme/acceptance/user-stories/us-2-desktop.jpg">Link to the desktop screenshot</a><br><a href="assets/readme/acceptance/user-stories/us-2-mobile.jpg">Link to the mobile screenshot</a>|
+|US-3| As a recruiter, I want to download the CV.|Each page has a menu item "Download CV," and the experience page has an additional link in the text.<br><a href="assets/readme/acceptance/user-stories/us-3-desktop.jpg">Link to the desktop screenshot</a><br><a href="assets/readme/acceptance/user-stories/us-3-mobile.jpg">Link to the mobile screenshot</a>|
+|US-4|As a recruiter, I want to be able to access the contact information I need with ease and efficiency.|Each page has a menu item, "Contact", which leads to a contact form.<br><a href="assets/readme/acceptance/user-stories/us-4-desktop.jpg">Link to the desktop screenshot</a><br><a href="assets/readme/acceptance/user-stories/us-4-mobile.jpg">Link to the mobile screenshot</a>|
+|US-5|As a recruiter, I want to explore more about a person in social networks.|For convenience, there are LinkedIn and GitHub icons with links in the footer of each page.<br><a href="assets/readme/acceptance/user-stories/us-5-desktop.jpg">Link to the desktop screenshot</a><br><a href="assets/readme/acceptance/user-stories/us-5-mobile.jpg">Link to the mobile screenshot</a>|
+|US-6|As a recruiter, I want to know a person's projects.|There is a GitHub icon with a link in the footer of each page.<br><a href="assets/readme/acceptance/user-stories/us-6-desktop.jpg">Link to the desktop screenshot</a><br><a href="assets/readme/acceptance/user-stories/us-6-mobile.jpg">Link to the mobile screenshot</a>|
+|US-7|As a site owner, I want to create a professional web presence that includes my skills and experience.|The website has skills and experience pages, and links in menu to downloadable CV in PDF format.<br><a href="assets/readme/acceptance/user-stories/us-7-desktop.jpg">Link to the desktop screenshot</a><br><a href="assets/readme/acceptance/user-stories/us-7-mobile.jpg">Link to the mobile screenshot</a>|
+|US-8|As a site owner, I want to be easily contactable by recruiters.|Each page has a menu item, "Contact", which leads to a contact form.<br><a href="assets/readme/acceptance/user-stories/us-8-desktop.jpg">Link to the desktop screenshot</a><br><a href="assets/readme/acceptance/user-stories/us-8-mobile.jpg">Link to the mobile screenshot</a>|
 
 ### Stage 1 scope criteria fulfilment
 
-| Requirement | Evidence description |
-|:------------|:---------------------|
-|Landing page with a Wow! design for desktop computers and tablets.|The desktop landing page's design is more artistic and different from the rest of the site.|
-|The contact form with a Thank you page after the message is sent.|Each page has a menu item, "Contact", which leads to a contact form. When the form is submitted, the user is forwarded to the Thank you page.|
-|Skills page.|Each page has a menu item, "Skills", which leads to a skills page.|
-|Work History.|Each page has a menu item, "Experience", which leads to a experience page.|
-|CV download functionality.|Each page has a menu item "Download CV," and the experience page has an additional link in the text.|
+|ID| Requirement | Evidence description |
+|--|:------------|:---------------------|
+|RQ-1|Landing page with a Wow! design for desktop computers and tablets.|The desktop landing page's design is more artistic and different from the rest of the site.|
+|RQ-2|The contact form with a Thank you page after the message is sent.|Each page has a menu item, "Contact", which leads to a contact form. When the form is submitted, the user is forwarded to the Thank you page.|
+|RQ-3|Skills page.|Each page has a menu item, "Skills", which leads to a skills page.|
+|RQ-4|Work History.|Each page has a menu item, "Experience", which leads to a experience page.|
+|RQ-5|CV download functionality.|Each page has a menu item "Download CV," and the experience page has an additional link in the text.|
 
 
 ## Deployment
